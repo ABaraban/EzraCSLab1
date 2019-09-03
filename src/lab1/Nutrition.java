@@ -17,7 +17,7 @@ public class Nutrition {
         double roundingCarbCal = caloriesCarbs * 10;
         double roundedCarbCal = Math.round(roundingCarbCal)/(double)10;
         double caloriesProtein = 4 * protein;
-        double roundingProteinCal = caloriesProtein * 10;;
+        double roundingProteinCal = caloriesProtein * 10;
         double roundedProteinCal = Math.round(roundingProteinCal)/(double)10;
         double caloriesFat = 9 * fat;
         double roundingFatCal = caloriesFat * 10;
@@ -29,8 +29,8 @@ public class Nutrition {
         double roundingFiber = caloriesFiber * 10;
         double roundedFiber = Math.round(roundingFiber)/(double)10;
         double gramsFiber = caloriesFiber/4;
-        double roundingGrams = gramsFiber * 10;
-        double roundedGrams = Math.round(roundingGrams)/(double)10;
+        double roundingGrams = gramsFiber * 100;
+        double roundedGrams = Math.round(roundingGrams)/(double)100;
 
 
         //Calculating percentages of carbs, fats, and protein I then rounded by math.round after multiplying by one thousand//
